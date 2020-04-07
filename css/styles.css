@@ -1,0 +1,217 @@
+ html {
+        min-height: 100%;
+        background: #ededed;
+        /*background: url('../img/background.jpg') no-repeat fixed;*/
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+      }
+
+      body, div, h1, h2, h3, p, ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      div#wrapper {
+        width: 980px;
+        margin: 0 auto;
+        clear: both;
+      }
+
+      p#nav {
+        height: 20px;
+        width: 406px;
+        margin: 31px 0 0 554px;
+        float: left;
+        font: bold 12pt/125% Helvetica;
+        color: #444444;
+      }
+
+      div#line_1 {
+        height: 1px;
+        width: 939px;
+        margin: 21px 0 0 21px;
+        float: left;
+        clear: both;
+        background: #cccccc;
+      }
+
+      h1#headline {
+        height: 71px;
+        width: 548px;
+        margin: 10px 0 0 21px;
+        float: left;
+        clear: both;
+        font: bold 44pt/125% Helvetica;
+        color: #ff4833;
+      }
+
+      div#container_a {
+        width: 952px;
+        float: left;
+        clear: both;
+      }
+
+        div#container_a div#element_a {
+          height: 281px;
+          width: 421px;
+          margin: 20px 0 0 34px;
+          float: left;
+          background: #ffffff url('../img/Blazooka.png') no-repeat scroll left top;
+          border: 1px solid #000000;
+        }
+
+        div#container_a div#container_b {
+          width: 495px;
+          float: left;
+        }
+
+          div#container_a div#container_b p {
+            float: left;
+            clear: both;
+          }
+
+          div#container_a div#container_b h2#secondary_headline {
+            height: 28px;
+            width: 433px;
+            margin: 27px 0 0 44px;
+            float: left;
+            font: bold 18pt/125% Helvetica;
+            color: #111111;
+          }
+
+          div#container_a div#container_b p#description {
+            height: 83px;
+            width: 451px;
+            margin: 6px 0 0 44px;
+            font: 12pt/125% Helvetica;
+            color: #444444;
+          }
+
+          div#container_a div#container_b p#benefits {
+            height: 70px;
+            width: 299px;
+            margin: 22px 0 0 44px;
+            font: bold 12pt/150% Helvetica;
+            color: #111111;
+          }
+
+          div#container_a div#container_b div#container_c {
+            width: 370px;
+            float: left;
+            clear: both;
+          }
+
+            div#container_a div#container_b div#container_c h3#do_it {
+              height: 30px;
+              width: 145px;
+              margin: 37px 0 0 44px;
+              float: left;
+              font: bold 18pt/125% Helvetica;
+              color: #ec4620;
+            }
+
+            div#container_a div#container_b div#container_c a#signup {
+              height: 40px;
+              width: 160px;
+              margin: 28px 0 0 21px;
+              float: left;
+              font: bold 14pt/40px Helvetica;
+              background: #cd391b;
+              background: -webkit-gradient(linear, left top, left bottom, from(#cd391b), to(#de6e01));
+              background: -moz-linear-gradient(top, #cd391b, #de6e01);
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cd391b', endColorstr='#de6e01');
+              border-radius: 10px;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+              color: #ffffff;
+              text-decoration: none;
+              text-align: center;
+            }
+
+      div#line_2 {
+        height: 1px;
+        width: 939px;
+        margin: 29px 0 0 21px;
+        float: left;
+        clear: both;
+        background: #cccccc;
+      }
+
+      div#container_d {
+        width: 950px;
+        float: left;
+        clear: both;
+      }
+
+        div#container_d img#testimonial_image {
+          height: 203px;
+          width: 100px;
+          margin: 19px 0 0 40px;
+          float: left;
+        }
+
+        div#container_d div#container_e {
+          width: 293px;
+          float: left;
+        }
+
+          div#container_d div#container_e h3#testimonial_header {
+            height: 26px;
+            width: 191px;
+            margin: 29px 0 0 10px;
+            float: left;
+            font: bold 16pt/125% Helvetica;
+            color: #222222;
+          }
+
+          div#container_d div#container_e p#testimonial {
+            height: 127px;
+            width: 283px;
+            margin: 6px 0 0 10px;
+            float: left;
+            clear: both;
+            font: 11pt/125% Helvetica;
+            color: #444444;
+          }
+
+        div#container_d img#more_info_image {
+          height: 148px;
+          width: 203px;
+          margin: 29px 0 0 14px;
+          float: left;
+        }
+
+        div#container_d div#container_f {
+          width: 300px;
+          float: left;
+        }
+
+          div#container_d div#container_f h3#more_info_header {
+            height: 26px;
+            width: 241px;
+            margin: 29px 0 0 17px;
+            float: left;
+            font: bold 16pt/125% Helvetica;
+            color: #222222;
+          }
+
+          div#container_d div#container_f p#more_info {
+            height: 127px;
+            width: 283px;
+            margin: 6px 0 0 17px;
+            float: left;
+            clear: both;
+            font: 11pt/125% Helvetica;
+            color: #444444;
+          }
+
+      p#thanks {
+        height: 40px;
+        width: 938px;
+        margin: 27px 0 0 21px;
+        float: left;
+        clear: both;
+        font: 10pt/125% Helvetica;
+        color: #bbbbbb;
+        text-align: center;
+      }
